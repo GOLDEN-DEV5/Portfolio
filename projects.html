@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Sami Abbas</title>
+  <meta name="description" content="full-stack projects by Sami Abbas — LLMs, computer vision, NLP, web apps, and more." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⬡</text></svg>" />
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-brand">Sami<span>Abbas</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="nav-hire">Hire Me</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html">Hire Me</a>
+  </div>
+
+  <main class="page">
+    <div class="wrap projects-page">
+
+      <div class="sec-header reveal">
+        <span class="sec-kicker">Portfolio</span>
+        <h1 class="sec-title">My <em style="font-style:italic;color:var(--gold);">Projects</em></h1>
+        <div class="sec-rule"></div>
+        <p class="sec-desc">
+          A curated selection of full-stack applications, and research-grade engineering work.
+        </p>
+      </div>
+
+      <!-- Filter buttons -->
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="apps">Mobile Applications</button>
+        <button class="filter-btn" data-filter="web">Websites</button>
+        <button class="filter-btn" data-filter="cv">Softwares</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- 1 -->
+        <div class="card proj-card reveal" data-cat="web">
+          <div class="proj-header">
+            <div class="proj-icon">🤖</div>
+            <div class="proj-links">
+              <a href="https://github.com/GOLDEN-DEV5" target="_blank" class="proj-link" title="GitHub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <p class="proj-name">Car Rental Website</p>
+          <p class="proj-desc">Built a full-stack Car Rental Management System with functionalities such as vehicle listing, real-time booking, user authentication, and booking history. Integrated backend APIs for reservation management and database operations, while creating a responsive front-end interface for seamless user interaction.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Python</span>
+            <span class="proj-tag">HTML</span>
+            <span class="proj-tag">CSS</span>
+            <span class="proj-tag">JAVA SCRIPT</span>
+            <span class="proj-tag">DJANGO</span>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="card proj-card reveal reveal-delay-1" data-cat="web">
+          <div class="proj-header">
+            <div class="proj-icon">🎙️</div>
+            <div class="proj-links">
+              <a href="https://github.com/GOLDEN-DEV5" target="_blank" class="proj-link" title="GitHub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <p class="proj-name">Portfolio Website</p>
+          <p class="proj-desc">I specialize in building personal portfolio websites using modern web technologies. These websites highlight projects, technical skills, and professional experience while maintaining responsive design, optimized performance, and a clean user experience across all devices.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">HTML</span>
+            <span class="proj-tag">CSS</span>
+            <span class="proj-tag">Java Script</span>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="card proj-card reveal reveal-delay-2" data-cat="cv">
+          <div class="proj-header">
+            <div class="proj-icon">♟️</div>
+            <div class="proj-links">
+              <a href="https://github.com/GOLDEN-DEV5" target="_blank" class="proj-link" title="GitHub">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+              </a>
+            </div>
+          </div>
+          <p class="proj-name">Banking Application</p>
+          <p class="proj-desc">Built a banking application that provides core banking functionalities including user authentication, account management, secure fund transfers, and transaction history tracking. Implemented strong security practices, database management, and responsive user interfaces to ensure a smooth and secure banking experience.</p>
+          <div class="proj-tags">
+            <span class="proj-tag">Python</span>
+            <span class="proj-tag">C</span>
+            <span class="proj-tag">Fairy Stockfish</span>
+            <span class="proj-tag">C++</span>
+          </div>
+        </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    // Filter logic
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.proj-card').forEach(card => {
+          const cats = card.dataset.cat || '';
+          const show = filter === 'all' || cats.includes(filter);
+          card.style.display = show ? 'flex' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
